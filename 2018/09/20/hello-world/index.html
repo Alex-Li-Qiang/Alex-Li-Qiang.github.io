@@ -4,9 +4,12 @@
 <head>
 	<link rel="bookmark"  type="image/x-icon"  href="/img/logo_miccall.png"/>
 	<link rel="shortcut icon" href="/img/logo_miccall.png">
+
+	<a href="https://github.com/Alex-Li-Qiang"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+
 	
 			    <title>
-    pop那么些年了
+    李强的博客世界
     </title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -63,6 +66,12 @@
     <script src="/js/util.js"></script>
     <script src="/js/main.js"></script>
 	
+
+	{% if theme.canvas_nest %}
+	<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+	{% endif %}
+
+
 </head>
     
 		
@@ -106,7 +115,7 @@
 		        <!-- Pages 自定义   -->
 		        
 		        <li>
-		            <a href="/about/" title="简历">
+		            <a href="/个人简历/" title="简历">
 		                简历
 		            </a>
 		        </li>
