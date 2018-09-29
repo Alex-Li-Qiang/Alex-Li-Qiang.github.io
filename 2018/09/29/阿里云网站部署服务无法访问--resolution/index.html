@@ -174,12 +174,16 @@
 </nav>
 
         <div id="main" >
-            <div class ="post_page_title_img" style="height: 25rem;background-image: url(https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1537620480333&amp;di=0b9770641234e7784e736ee08f9e1063&amp;imgtype=0&amp;src=http%3A%2F%2Fpic-cdn.35pic.com%2F58pic%2F19%2F47%2F54%2F73P58PICsm7_1024.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
-                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >团队</h2></a>
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url(https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1538218626713&amp;di=13074a1f5004518964fff2f510e0596d&amp;imgtype=jpg&amp;src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D839515942%2C547412270%26fm%3D214%26gp%3D0.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >网站建站备忘录</h2></a>
             </div>
             <!-- Post -->
             <div class="typo" style="padding: 3rem;">
-                
+                <hr>
+<p>本文由深圳大学李强转载整理自CSDN 博客</p>
+<h2 id="由于本人建站时遇到此问题，久久未能解决，故留此一文，以表本人之笨，天下无敌"><a href="#由于本人建站时遇到此问题，久久未能解决，故留此一文，以表本人之笨，天下无敌" class="headerlink" title="由于本人建站时遇到此问题，久久未能解决，故留此一文，以表本人之笨，天下无敌"></a>由于本人建站时遇到此问题，久久未能解决，故留此一文，以表本人之笨，天下无敌</h2><p>当我们新购买一个阿里云服务器ECS，并且在上面部署了tomcat或Nginx时，发现在浏览器或其他工具通过IP地址加端口访问时，并不能成功，这是因为ECS默认会将服务器加入安全组中，安全组中只打开了22和3389几个端口，所有其他端口不能访问服务器。解决办法如下：</p>
+<p>1.打开阿里云控制台的安全组，点击配置规则<br><img src="http://wx2.sinaimg.cn/large/006XQCwigy1fvqhndeyi7j310o06nmxq.jpg" alt="配置规则" title="配置规则"><br>2.点击需要修改的服务器的管理按钮，快速创建规则<br><img src="http://wx4.sinaimg.cn/mw690/006XQCwigy1fvqhnlhpqpj31100c8wfw.jpg" alt="快速创建规则" title="快速创建规则"><br>3.填写需要打开的端口和允许访问的ip段，保存，即可查看新增的规则<br><img src="http://wx3.sinaimg.cn/mw690/006XQCwigy1fvqhnq5ol7j30kk0nm3zs.jpg" alt="填写规则" title="填写规则"><br>4.保存，即可查看新增的规则<br><img src="http://wx4.sinaimg.cn/mw690/006XQCwigy1fvqhnz7yx1j312b0d6q4g.jpg" alt="保存" title="保存"><br>5.这时再次访问，发现可以出来页面了<br><img src="http://wx3.sinaimg.cn/mw690/006XQCwigy1fvqho5t472j30z20c6q59.jpg" alt="apache2" title="开启服务"></p>
+
             </div>
 
             <!-- Post Comments -->
@@ -241,8 +245,8 @@ $('.btn_click_load').click(function() {
 -->
 <script type="text/javascript">
     var disqus_config = function () {
-        this.page.url = 'http://yoursite.com/group/index.html';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://yoursite.com/group/index.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = 'http://yoursite.com/2018/09/29/阿里云网站部署服务无法访问--resolution/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://yoursite.com/2018/09/29/阿里云网站部署服务无法访问--resolution/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 </script>
 
